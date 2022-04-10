@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\lab3">
+      <UniqueIdentifier>{dfcfb1f3-8751-49a0-907a-989914952da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\lab3">
+      <UniqueIdentifier>{1c9b0e90-7e83-4285-b333-38b1a5b9b1b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\lab3\3.3">
+      <UniqueIdentifier>{3101285a-c048-4b82-97f0-ad02a47581dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\lab3\3.3">
+      <UniqueIdentifier>{02aa4c4d-8a12-49ea-ac36-883edb6b3c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\lab3\3.2">
+      <UniqueIdentifier>{b96bcfb6-68fd-4505-acd2-9470911216b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\lab3\3.2">
+      <UniqueIdentifier>{aee713c4-6473-42ae-be37-c1be3c093fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\lab3\3.4">
+      <UniqueIdentifier>{f6e54667-352e-4867-8685-63403aeea577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\lab3\3.4">
+      <UniqueIdentifier>{b9798dae-9c3e-4e49-bb3d-619c2bdb6d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\lab3\DopQue">
+      <UniqueIdentifier>{c9d00865-724a-4f0c-9bcc-061d55b221b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\lab3\DopQue">
+      <UniqueIdentifier>{000c0d25-8033-485b-bce1-25259c5e4c8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\lab4">
+      <UniqueIdentifier>{48d34e0f-68e4-42ec-b2be-be06271b112e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\lab4">
+      <UniqueIdentifier>{a60890dc-d42a-4726-8c89-c2e882ade2bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Исходные файлы\lab3\3.3</Filter>
+    </ClCompile>
+    <ClCompile Include="Route.cpp">
+      <Filter>Исходные файлы\lab3\3.2</Filter>
+    </ClCompile>
+    <ClCompile Include="Book.cpp">
+      <Filter>Исходные файлы\lab3\3.2</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Исходные файлы\lab3\3.3</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Исходные файлы\lab3\3.3</Filter>
+    </ClCompile>
+    <ClCompile Include="Flight.cpp">
+      <Filter>Исходные файлы\lab3\3.3</Filter>
+    </ClCompile>
+    <ClCompile Include="Album.cpp">
+      <Filter>Исходные файлы\lab3\3.4</Filter>
+    </ClCompile>
+    <ClCompile Include="Band.cpp">
+      <Filter>Исходные файлы\lab3\3.4</Filter>
+    </ClCompile>
+    <ClCompile Include="Song.cpp">
+      <Filter>Исходные файлы\lab3\3.4</Filter>
+    </ClCompile>
+    <ClCompile Include="IOBand.cpp">
+      <Filter>Исходные файлы\lab3\3.4</Filter>
+    </ClCompile>
+    <ClCompile Include="IOFlight.cpp">
+      <Filter>Исходные файлы\lab3\3.3</Filter>
+    </ClCompile>
+    <ClCompile Include="IORectangle.cpp">
+      <Filter>Исходные файлы\lab3\3.3</Filter>
+    </ClCompile>
+    <ClCompile Include="Comment.cpp">
+      <Filter>Исходные файлы\lab3\DopQue</Filter>
+    </ClCompile>
+    <ClCompile Include="Post.cpp">
+      <Filter>Исходные файлы\lab3\DopQue</Filter>
+    </ClCompile>
+    <ClCompile Include="Ring.cpp">
+      <Filter>Исходные файлы\lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="IORing.cpp">
+      <Filter>Исходные файлы\lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleValidator.cpp">
+      <Filter>Исходные файлы\lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Исходные файлы\lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCollisionManager.cpp">
+      <Filter>Исходные файлы\lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometricProgram.cpp">
+      <Filter>Исходные файлы\lab4</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Point.h">
+      <Filter>Файлы заголовков\lab3\3.3</Filter>
+    </ClInclude>
+    <ClInclude Include="Route.h">
+      <Filter>Файлы заголовков\lab3\3.2</Filter>
+    </ClInclude>
+    <ClInclude Include="Book.h">
+      <Filter>Файлы заголовков\lab3\3.2</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Файлы заголовков\lab3\3.3</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Файлы заголовков\lab3\3.3</Filter>
+    </ClInclude>
+    <ClInclude Include="Flight.h">
+      <Filter>Файлы заголовков\lab3\3.3</Filter>
+    </ClInclude>
+    <ClInclude Include="Genre.h">
+      <Filter>Файлы заголовков\lab3\3.4</Filter>
+    </ClInclude>
+    <ClInclude Include="Song.h">
+      <Filter>Файлы заголовков\lab3\3.4</Filter>
+    </ClInclude>
+    <ClInclude Include="Album.h">
+      <Filter>Файлы заголовков\lab3\3.4</Filter>
+    </ClInclude>
+    <ClInclude Include="Band.h">
+      <Filter>Файлы заголовков\lab3\3.4</Filter>
+    </ClInclude>
+    <ClInclude Include="IOBand.h">
+      <Filter>Файлы заголовков\lab3\3.4</Filter>
+    </ClInclude>
+    <ClInclude Include="IOFlight.h">
+      <Filter>Файлы заголовков\lab3\3.3</Filter>
+    </ClInclude>
+    <ClInclude Include="IORectangle.h">
+      <Filter>Файлы заголовков\lab3\3.3</Filter>
+    </ClInclude>
+    <ClInclude Include="Comment.h">
+      <Filter>Файлы заголовков\lab3\DopQue</Filter>
+    </ClInclude>
+    <ClInclude Include="Post.h">
+      <Filter>Файлы заголовков\lab3\DopQue</Filter>
+    </ClInclude>
+    <ClInclude Include="Ring.h">
+      <Filter>Файлы заголовков\lab4</Filter>
+    </ClInclude>
+    <ClInclude Include="IORing.h">
+      <Filter>Файлы заголовков\lab4</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleValidator.h">
+      <Filter>Файлы заголовков\lab4</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Файлы заголовков\lab4</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCollisionManager.h">
+      <Filter>Файлы заголовков\lab4</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometricProgram.h">
+      <Filter>Файлы заголовков\lab4</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
