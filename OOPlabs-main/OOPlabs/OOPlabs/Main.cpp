@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include "Book.h"
 #include "Route.h"
 #include "Rectangle.h"
@@ -11,14 +11,27 @@
 #include "IORing.h"
 #include "IOCollisionManager.h"
 #include "GeometricProgram.h"
-
 #include "Post.h"
+
+#include "Person.h"
+#include "Student.h"
+#include "Teacher.h"
+#include "PersonInfo.h"
+
+#include "User.h"
+#include "PaidUser.h"
+#include "UserTools.h"
+
+#include "Product.h"
+#include "IOProduct.h"
+#include "PercentDiscount.h"
+#include "DiscountBase.h"
 
 using namespace std;
 
 int main()
 {
-	GeometricProgram g1;
+	/*GeometricProgram g1;
 
 	//DemoBook();
 	//DemoRoute();
@@ -62,8 +75,7 @@ int main()
 		}
 		}
 	}
-	
-	/*
+
 	Post* posts = new Post[5];
 	for (int i = 0; i < 5; i++)
 	{
@@ -105,6 +117,81 @@ int main()
 		}
 	}
 	*/
+	
+	//lab5 ex 5.1
+	/*Person* person = new Person();
+	Student* student = new Student();
+	Teacher* teacher = new Teacher();
+
+	PersonInfo p1;
+	p1.ShowName(person);
+	p1.ShowName(student);
+	p1.ShowName(teacher);
+
+	delete person;
+	delete student;
+	delete teacher;*/
+
+	//lab5 ex 5.2
+	/*try
+	{
+		User** users = new User * []
+		{
+				new User(100000, "morkovka1995", "1995morkovka"),
+				new User(100001, "ilon_mask", "X æ A-12"),
+				new User(100002, "megazver", "password"),
+				new User(100003, "yogurt", "ksTPQzSu"),
+		};
+		User** paidUsers = new User * []
+		{
+				new PaidUser(200000, "TheKnyazz", "JHPzPGFG"),
+				new PaidUser(200001, "system_exe", "UgfkDGmU"),
+				new PaidUser(200002, "RazorQ", "TBgRnbCP"),
+				new PaidUser(200003, "schdub", "CetyQVID"),
+		};
+		string login = "megazver";
+		string password = "password";
+		User* loginedUser = Login(users, 4, login, password);
+		cout << "Signed in as: " << loginedUser->GetLogin() << endl;
+		login = "system_exe";
+		password = "UgfkDGmU";
+		User* loginedPaidUser = Login(paidUsers, 4, login, password);
+		cout << "Signed in as: " << loginedPaidUser->GetLogin() << endl;
+		for (int i = 0; i < 4; i++)
+		{
+			delete users[i];
+		}
+		delete[] users;
+		for (int i = 0; i < 4; i++)
+		{
+			delete paidUsers[i];
+		}
+		delete[] paidUsers;
+	}
+	catch (exception exception)
+	{
+		cerr << exception.what() << endl;
+	}*/
+
+	//lab5 ex 5.3
+	try
+	{
+		Product* products = new Product[]
+		{
+			Product("LG49N000", 40'000, CategoryType::TV),
+			Product("Q1", 2'000, CategoryType::Micromax),
+			Product("M650", 8'000, CategoryType::Pantum),
+			Product("LasetJet", 11'000, CategoryType::HP)
+		};
+		DiscountBase* discount1 = new PercentDiscount(CategoryType::TV, 25.0f);
+		DiscountBase* discount2 = new PercentDiscount(CategoryType::Micromax, 25.0f);
+		ShowCheckWithDiscount(discount1, products, 4);
+		ShowCheckWithDiscount(discount2, products, 4);
+	}
+	catch (exception exception)
+	{
+		cerr << exception.what() << endl;
+	}
 
 	system("pause");
 }

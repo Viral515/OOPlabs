@@ -1,6 +1,6 @@
 #include "Post.h"
 
-Post::Post()
+PostLab3::PostLab3()
 {
 	_title = "Post";
 	_text = "Nothing";
@@ -8,7 +8,7 @@ Post::Post()
 	_commentsCount = 1;
 }
 
-Post::Post(string title, string text, Comment* comments, int commentsCount)
+PostLab3::PostLab3(string title, string text, Comment* comments, int commentsCount)
 {
 	_title = title;
 	_text = text;
@@ -16,22 +16,22 @@ Post::Post(string title, string text, Comment* comments, int commentsCount)
 	_commentsCount = commentsCount;
 }
 
-void Post::SetTitle(string title)
+void PostLab3::SetTitle(string title)
 {
 	_title = title;
 }
 
-void Post::SetText(string text)
+void PostLab3::SetText(string text)
 {
 	_text = text;
 }
 
-void Post::SetComments(Comment* comments)
+void PostLab3::SetComments(Comment* comments)
 {
 	_comments = comments;
 }
 
-void Post::SetCommentsCount(int commentsCount)
+void PostLab3::SetCommentsCount(int commentsCount)
 {
 	if (commentsCount < 0)
 	{
@@ -40,22 +40,22 @@ void Post::SetCommentsCount(int commentsCount)
 	_commentsCount = commentsCount;
 }
 
-string Post::GetTitle()
+string PostLab3::GetTitle()
 {
 	return _title;
 }
 
-string Post::GetText()
+string PostLab3::GetText()
 {
 	return _text;
 }
 
-Comment* Post::GetComments()
+Comment* PostLab3::GetComments()
 {
 	return _comments;
 }
 
-int Post::GetCommentsCount()
+int PostLab3::GetCommentsCount()
 {
 	return _commentsCount;
 }

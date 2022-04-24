@@ -3,7 +3,7 @@
 
 using namespace std;
 
-class Post
+class PostLab3
 {
 private:
 	string _title;
@@ -12,8 +12,8 @@ private:
 	int _commentsCount;
 
 public:
-	Post();
-	Post(string title, string text, Comment* comments, int commentsCount);
+	PostLab3();
+	PostLab3(string title, string text, Comment* comments, int commentsCount);
 
 	void SetTitle(string title);
 	void SetText(string text);

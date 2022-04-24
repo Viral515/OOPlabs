@@ -49,11 +49,32 @@
     <Filter Include="Исходные файлы\lab4">
       <UniqueIdentifier>{a60890dc-d42a-4726-8c89-c2e882ade2bd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\lab5">
+      <UniqueIdentifier>{46da6267-4f7a-45c6-b91f-4a77cd4e7a82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\lab5">
+      <UniqueIdentifier>{bdfd8fc6-b4ae-4408-baa5-7c5c0d8b9bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\lab5\5.1">
+      <UniqueIdentifier>{58ea7d4a-32f9-4621-86bd-7800cf0a7138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\lab5\5.1">
+      <UniqueIdentifier>{254d9179-e220-4e9c-b1c2-e82c942972a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\lab5\5.2">
+      <UniqueIdentifier>{581bf0a2-1992-4a1c-9615-7fc15b9220d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\lab5\5.2">
+      <UniqueIdentifier>{95ff2053-2989-4951-9441-edbf2350e09c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\lab5\5.3">
+      <UniqueIdentifier>{46ba7546-99c6-4997-8906-7fdd1aa16151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\lab5\5.3">
+      <UniqueIdentifier>{5a0c6865-9dd4-48d5-9562-802612414f44}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="Point.cpp">
       <Filter>Исходные файлы\lab3\3.3</Filter>
     </ClCompile>
@@ -113,6 +134,48 @@
     </ClCompile>
     <ClCompile Include="GeometricProgram.cpp">
       <Filter>Исходные файлы\lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+    <ClCompile Include="Teacher.cpp">
+      <Filter>Исходные файлы\lab5\5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Исходные файлы\lab5\5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Исходные файлы\lab5\5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonInfo.cpp">
+      <Filter>Исходные файлы\lab5\5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="PostLab5.cpp">
+      <Filter>Исходные файлы\lab5\5.2</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Исходные файлы\lab5\5.2</Filter>
+    </ClCompile>
+    <ClCompile Include="PaidUser.cpp">
+      <Filter>Исходные файлы\lab5\5.2</Filter>
+    </ClCompile>
+    <ClCompile Include="UserTools.cpp">
+      <Filter>Исходные файлы\lab5\5.2</Filter>
+    </ClCompile>
+    <ClCompile Include="Product.cpp">
+      <Filter>Исходные файлы\lab5\5.3</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscountBase.cpp">
+      <Filter>Исходные файлы\lab5\5.3</Filter>
+    </ClCompile>
+    <ClCompile Include="PercentDiscount.cpp">
+      <Filter>Исходные файлы\lab5\5.3</Filter>
+    </ClCompile>
+    <ClCompile Include="CertificatDiscount.cpp">
+      <Filter>Исходные файлы\lab5\5.3</Filter>
+    </ClCompile>
+    <ClCompile Include="IOProduct.cpp">
+      <Filter>Исходные файлы\lab5\5.3</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -178,6 +241,48 @@
     </ClInclude>
     <ClInclude Include="GeometricProgram.h">
       <Filter>Файлы заголовков\lab4</Filter>
+    </ClInclude>
+    <ClInclude Include="Teacher.h">
+      <Filter>Файлы заголовков\lab5\5.1</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Файлы заголовков\lab5\5.1</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Файлы заголовков\lab5\5.1</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonInfo.h">
+      <Filter>Файлы заголовков\lab5\5.1</Filter>
+    </ClInclude>
+    <ClInclude Include="PostLab5.h">
+      <Filter>Файлы заголовков\lab5\5.2</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Файлы заголовков\lab5\5.2</Filter>
+    </ClInclude>
+    <ClInclude Include="PaidUser.h">
+      <Filter>Файлы заголовков\lab5\5.2</Filter>
+    </ClInclude>
+    <ClInclude Include="UserTools.h">
+      <Filter>Файлы заголовков\lab5\5.2</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.h">
+      <Filter>Файлы заголовков\lab5\5.3</Filter>
+    </ClInclude>
+    <ClInclude Include="CategoryType.h">
+      <Filter>Файлы заголовков\lab5\5.3</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscountBase.h">
+      <Filter>Файлы заголовков\lab5\5.3</Filter>
+    </ClInclude>
+    <ClInclude Include="PercentDiscount.h">
+      <Filter>Файлы заголовков\lab5\5.3</Filter>
+    </ClInclude>
+    <ClInclude Include="CertificateDiscount.h">
+      <Filter>Файлы заголовков\lab5\5.3</Filter>
+    </ClInclude>
+    <ClInclude Include="IOProduct.h">
+      <Filter>Файлы заголовков\lab5\5.3</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
